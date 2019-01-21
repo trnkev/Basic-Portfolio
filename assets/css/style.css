@@ -28,6 +28,13 @@ li {
     padding: 20px;
 }
 
+#bio {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin: 20px;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: #777777;
@@ -37,7 +44,7 @@ header {
     background: #ffffff;
     border-style: solid none;
     border-width: 1px;
-    border-color: ##cccccc;
+    border-color: #cccccc;
     margin: 20px auto;
     height: 80px;
 }
@@ -47,7 +54,6 @@ footer {
     position: absolute;
     width: 100%;
     text-align: center;
-
 }
 
 #name {
@@ -81,13 +87,23 @@ footer {
 }
 
 #about {
-    padding-left: 20px;
-    padding-top: 20px;
+    margin: 40px 20px;
+
 }
 
 #bio-image {
     float: left;
     transform: rotate(90deg);
     width: 200px;
-    margin: 30px 15px 30px 0;
+    margin: 30px 0 30px 0;
+    padding-top: 20px;
+}
+
+#footer-bar {
+    background: #777777;
+}
+
+#copyright {
+    color: #ffffff;
+    padding: 20px 0 10px;
 }
