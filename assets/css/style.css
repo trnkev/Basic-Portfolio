@@ -1,9 +1,32 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1,h2 {
+    /*background: #4aaaa5;*/
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#content {
+    width: 960px;
+}
+
+#main-header {
+    background: #ffffff;
+    border-color: #cccccc;
+}
+
+#main-content {
+    width: 960px;
+    background: #ffffff;
+    border-color: #dddddd;
+}
+
 #bio-image {
     float: left;
     transform: rotate(90deg);
     width: 200px;
     margin: 30px 15px 30px 0;
-}
-
-#main-bio {
 }
