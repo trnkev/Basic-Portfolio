@@ -137,3 +137,43 @@ footer {
     color: #ffffff;
     font-size: 1em;
 }
+
+#gallery {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#wireframe {
+    float: left;
+    width: 33%;
+}
+
+#float {
+    float: left;
+    width: 34%;
+}
+
+#student-bio {
+    float: left;
+    width: 33%;
+}
+
+#git-hub {
+    clear: both;
+    float: left;
+    width: 50%;
+}
+
+#linkedin {
+    float: left;
+    width: 50%;
+}
+
+#wireframe-snapshot {
+    width: 200px;
+}
+
+#float-snapshot {
+    width: 300px;
+}
