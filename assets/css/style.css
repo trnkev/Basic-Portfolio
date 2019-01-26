@@ -140,40 +140,68 @@ footer {
 
 #gallery {
     list-style: none;
-    padding: 20px 0;
+    padding: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 250px;
+}
+
+#city {
+    float: left;
+    padding-right: 120px;
+}
+
+#bike {
+    float: left;
+}
+
+#car {
+    clear: both;
+    float: left;
+    padding-right: 120px;
+}
+
+#food {
+    float: left;
+}
+
+#business {
+    clear: both;
+    float: left;
+}
+
+.list {
+    padding-bottom: 40px;
+}
+
+.image {
+    position: relative;
+}
+
+.container {
+    position: relative;
     text-align: center;
 }
 
-#wireframe {
-    float: left;
-    width: 33%;
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    background: #4aaaa5;
+    width: 100%;
+    padding: 10px 0;
 }
 
-#float {
-    float: left;
-    width: 34%;
+.portfolio-text {
+    color: white;
 }
 
-#student-bio {
-    float: left;
-    width: 33%;
-}
-
-#git-hub {
+.portfolio-section {
     clear: both;
-    float: left;
-    width: 50%;
-}
-
-#linkedin {
-    float: left;
-    width: 50%;
-}
-
-#wireframe-snapshot {
-    width: 200px;
-}
-
-#float-snapshot {
-    width: 300px;
+    width: 960px;
+    height: 700px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
