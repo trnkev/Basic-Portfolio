@@ -109,9 +109,6 @@ footer {
     padding: 20px 0 10px;
 }
 
-#info {
-}
-
 .divider {
     border-right: 1px solid #dddddd;
 }
@@ -119,6 +116,7 @@ footer {
 #info {
     list-style: none;
     padding: 0;
+    margin-bottom: 0;
 }
 
 .user {
@@ -143,12 +141,12 @@ footer {
     padding: 0;
     overflow: scroll;
     width: 100%;
-    height: 250px;
+    height: 400px;
 }
 
 #city {
     float: left;
-    padding-right: 120px;
+    padding-right: 50px;
 }
 
 #bike {
@@ -158,7 +156,7 @@ footer {
 #car {
     clear: both;
     float: left;
-    padding-right: 120px;
+    padding-right: 50px;
 }
 
 #food {
@@ -171,7 +169,7 @@ footer {
 }
 
 .list {
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .image {
@@ -193,15 +191,24 @@ footer {
 
 .portfolio-text {
     color: white;
+    font-size: 12px;
 }
 
 .portfolio-section {
     clear: both;
     width: 960px;
-    height: 700px;
+    height: 480px;
     margin: 20px auto;
     background: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
+}
+
+.images {
+    width: 110px;
+}
+
+.fields {
+    padding-bottom: 5px;
 }
